@@ -1,0 +1,91 @@
+.signup-container {
+    width: 30%;
+    padding: 30px;
+    background-color: #31304D;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signup-container h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #F0ECE5;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 100px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #B6BBC4; 
+    border-radius: 5px;
+}
+.signup-container p {
+    color: #F0ECE5;
+}
+
+.signup-container a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signup-input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.signup-input label {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.signup-input input {
+    padding: 15px 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.forgot-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #B6BBC4;
+    font-size: 18px;
+}
+
+.forgot-password span {
+    color: #F0ECE5;
+    cursor: pointer;
+}
+
+.sumbit-container {
+    display: flex;
+    gap: 30px;
+    margin: 40px auto;
+}
+
+.submit {
+    width: 220px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B6BBC4;
+    background-color: #161A30;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.gray {
+    background-color: #B6BBC4;
+    color: #161A30;
+}
